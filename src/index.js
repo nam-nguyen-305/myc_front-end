@@ -5,10 +5,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-export const App = ()=>{
-  return <div className="App">
-
-         </div>;
+export const App = () => {
+  return <div className="App"></div>;
 };
 root.render(
   <React.StrictMode>
